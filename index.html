@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Work+Sans:600,400' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.transform2d.js"></script>
+	<script src="js/highcharts.js"></script>
+	<script src="js/jquery.kinetic.min.js"></script>
+
+	<meta charset="UTF-8">
+		<style>
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+	html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Remove selections */
+
+    ::-moz-selection{
+    background-color:Transparent;
+    color:#000;
+    }
+
+    ::selection {
+    background-color:Transparent;
+    color:#000;
+    }
+.myclass::-moz-selection,
+.myclass::selection { ... }
+
+/* Here on out */
+
+html {
+	cursor: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	cursor: default !important;
+}
+
+body {
+	color: #000;
+	background: #000;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.2em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+#container {
+	background: #fff;
+	width: 480px;
+	height: 840px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	margin: 0 auto;
+}
+
+#homescreen {
+	display: none;
+}
+
+#homescreen #applist {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+	margin-top: 60px;
+}
+
+#homescreen #floatapplist {
+	position:relative;
+	left:50%;
+}
+
+#homescreen .homeicon {
+	width: 150px;
+	height: 150px;
+	display: block;
+	background-color: #fff;
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	position: relative;
+}
+
+#homescreen .interactivehomeicon {
+	width: 150px;
+	height: 35px;
+	display: block;
+	float: left;
+	position: relative;
+	background-position: center 30%;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 115px;
+	font-size: 1em;
+}
+
+#homescreen .interactivehomeicon, #homescreen .homeicon  {
+
+}
+
+#homescreen .interactivehomeicon:active, #homescreen .homeicon:active {
+	background-color: rgba(0,0,0, 0.3);
+	border-radius: 8px;
+}
+
+
+#homescreen #uber {
+	background-image: url('images/uberlogo.png');
+}
+
+#homescreen #car2go {
+	background-image: url('images/car2go.png');
+}
+
+#homescreen .subway {
+	 /* -webkit-animation-duration: 4s; 
+    animation-duration: 4s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+    -webkit-animation-name: pulse; 
+    animation-name: pulse; */
+}
+
+#homescreen #subway-A { background-image: url('images/subway/A.svg'); }
+#homescreen #subway-C { background-image: url('images/subway/C.svg'); }
+#homescreen #subway-E { background-image: url('images/subway/E.svg'); }
+#homescreen #subway-B { background-image: url('images/subway/B.svg'); }
+#homescreen #subway-D { background-image: url('images/subway/D.svg'); }
+#homescreen #subway-F { background-image: url('images/subway/F.svg'); }
+#homescreen #subway-M { background-image: url('images/subway/M.svg'); }
+#homescreen #subway-1 { background-image: url('images/subway/1.svg'); }
+#homescreen #subway-2 { background-image: url('images/subway/2.svg'); }
+#homescreen #subway-3 { background-image: url('images/subway/3.svg'); }
+#homescreen #subway-4 { background-image: url('images/subway/4.svg'); }
+#homescreen #subway-5 { background-image: url('images/subway/5.svg'); }
+#homescreen #subway-6 { background-image: url('images/subway/6.svg'); }
+#homescreen #subway-G { background-image: url('images/subway/G.svg'); }
+
+
+#homescreen .homewidget {
+	width: 460px;
+	display: block;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+#homescreen #weatherchart {
+	margin: -20px 0 20px 0;
+	z-index: -1;
+	overflow: hidden;
+	cursor: none !important;
+}
+
+a#refresh {
+	width: 50px;
+	height: 50px;
+	display: block;
+	background-color: #fff;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
+	background-image: url('refresh.png');
+}
+
+#homescreen #weather canvas {
+	margin: 15px;
+}
+
+#homescreen #transit {
+	background-image: url('subway.gif');
+}
+
+#homescreen #light {
+	background-image: url('images/lightbulb.png');
+}
+
+#homescreen #ac {
+	background-image: url('ac.gif');
+}
+
+#homescreen #clock {
+	font-weight: 300;
+	text-align: center;
+	font-size: 3em;
+	position: absolute;
+	bottom: 31px;
+	width: 100%;
+}
+
+#homescreen .alert {
+	z-index: 3;
+	position: fixed;
+	bottom: -57px;
+	left: 0;
+	width: 240px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	padding-top: 17px;
+}
+
+#homescreen #precipalert {
+	background-color: #0074D9;
+}
+
+#homescreen #erroralert {
+	background-color: #e74c3c;
+}
+
+.childscreen {
+	background: #fff;
+	width: 480px;
+	height: 355px;
+	position: fixed;
+	top: 400;
+	left: 0;
+	z-index: 5;
+	display: none;
+}
+
+#car2goscreen {
+	background-image: url('https://maps.googleapis.com/maps/api/staticmap?size=480x480&maptype=roadmap&markers=color:green%7C40.711614,-74.012318&markers=color:red%7C40.718217,-73.998284');
+	background-position: center;
+	background-repeat: none;
+}
+
+.subwayscreen {
+	background-color: rgba(255,255,255,0.95);
+}
+
+.subwayscreen_content {
+	padding: 40px 30px 0px;
+	line-height: 1.5;
+}
+
+.subwayscreen_content p {
+	margin-bottom: 10px;
+}
+
+#weatherscreen {
+	text-align: center;
+}
+
+#weatherscreen #current {
+	width: 175px;
+	margin: 40% auto 0 auto;
+}
+
+#weatherscreen #current .icon {
+	float: left;
+	position: relative;
+	margin-right: 5px;
+}
+
+#weatherscreen #current .temp {
+	float: left;
+	font-size: 3em;
+	font-weight: 300;
+	position: relative;
+	bottom: -8px;
+	letter-spacing: -5px;
+}
+
+#weatherscreen p {
+	text-align: center;
+	margin-top: 10px;
+}
+
+h1 {
+	font-weight: 300;
+	padding: .75em 0 .1em 0;
+	font-size: 2em;
+	width: 100%;
+	text-align: center;
+}
+
+.highcharts-data-labels {
+	
+}
+
+.highcharts-axis-labels tspan:nth-child(2) {
+	font-size: 0.75em;
+}
+
+@-webkit-keyframes pulse { 
+    0%, 20% { -webkit-transform: opacity: 0.4; } 
+    50% { -webkit-transform: opacity: 1; } 
+    80%, 100% { -webkit-transform: opacity: 0.4; } 
+} 
+
+@keyframes pulse {
+    0%, 20% { opacity: 0.4; }
+    50% { opacity: 1.0; }
+    80%, 100% { opacity: 0.4; }
+}
+
+		</style>
+		<script>
+		
+
+		</script>
+
+	</head>
+	<body>
+		<!-- <a href="#" onClick="location.reload(true); return false;" id="refresh">&nbsp;</a>-->
+		<div id="container">
+
+			<div id="homescreen">
+				<a href="#" onClick="location.reload(true); return false;"><h1 id="greeting">Hello.</h1></a>
+				<a href="#" id="newweather" class="homewidget"><div id="weatherchart"></div></a>
+					<!-- <a href="#" id="weather" class="homeicon"><figure class="icon">
+							<canvas id="icon1" width="72" height="72">
+							</canvas>
+		        		</figure></a> -->
+					<!-- <a href="#" id="transit" class="homeicon">&nbsp;</a> -->
+				<div id="applist">
+					<div id="floatapplist">
+						<a href="#" id="light" class="homeicon">&nbsp;</a>
+						<a href="#" id="uber" class="interactivehomeicon">X min</a>
+						<a href="#" id="car2go" class="interactivehomeicon">X km</a>
+						<!-- <a href="#" id="ac" class="homeicon">&nbsp;</a> -->
+						<div style="clear:both;"></div>
+						<div id="subwayicons"></div>
+					</div>
+				</div>
+
+				<div id="clock">12:00</div>
+
+				<div id="precipalert" class="alert">PRECIP LOAD</div>
+				<div id="erroralert" class="alert">ERROR LOAD</div>
+			</div>
+
+			<div id="childscreen_container">
+
+				<div id="car2goscreen" class="childscreen">
+				</div>
+
+				<div id="weatherscreen" class="childscreen">
+					<section id="current">
+						<figure class="icon">
+							<canvas id="icon2" width="75" height="75">
+							</canvas>
+		        		</figure>
+		        		<figure class="temp">
+	        				72&#176;
+	        			</figure>
+	        			<div style="clear:both;"></div>
+	        		</section>
+	        		<p class="nexthour">Sunny</p>
+				</div>
+
+				<div id="subwayscreens_container"></div>
+
+			</div>
+		</div>
+
+	<script src="js/config.js"></script>
+	<script src="js/screen.js"></script>
+	</body>
+</html>

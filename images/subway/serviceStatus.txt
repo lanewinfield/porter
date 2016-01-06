@@ -1,0 +1,717 @@
+<service><responsecode>0</responsecode><timestamp>9/18/2015 5:02:00 PM</timestamp><subway>
+  <line>
+    <name>123</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>456</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>7</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>ACE</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:48PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;P&gt;Due to a train with mechanical problems at &lt;STRONG&gt;36 St&lt;/STRONG&gt; (QNS), northbound [M] and [R] trains are running express from &lt;STRONG&gt;Queens Plaza&lt;/STRONG&gt; to &lt;STRONG&gt;Jackson Heights-Roosevelt Av&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Expect delays on northbound [E], [F], [M] and [R] train service.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time. &lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:48PM</Time>
+  </line>
+  <line>
+    <name>BDFM</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:48PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;P&gt;Due to a train with mechanical problems at &lt;STRONG&gt;36 St&lt;/STRONG&gt; (QNS), northbound [M] and [R] trains are running express from &lt;STRONG&gt;Queens Plaza&lt;/STRONG&gt; to &lt;STRONG&gt;Jackson Heights-Roosevelt Av&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Expect delays on northbound [E], [F], [M] and [R] train service.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time. &lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:48PM</Time>
+  </line>
+  <line>
+    <name>G</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>JZ</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>L</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>NQR</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:48PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;P&gt;Due to a train with mechanical problems at &lt;STRONG&gt;36 St&lt;/STRONG&gt; (QNS), northbound [M] and [R] trains are running express from &lt;STRONG&gt;Queens Plaza&lt;/STRONG&gt; to &lt;STRONG&gt;Jackson Heights-Roosevelt Av&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Expect delays on northbound [E], [F], [M] and [R] train service.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time. &lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:48PM</Time>
+  </line>
+  <line>
+    <name>S</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>SIR</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+</subway><bus>
+  <line>
+    <name>B1 - B84</name>
+    <status>DELAYS</status>
+    <text>
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:23PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;B6&lt;/STRONG&gt; and &lt;STRONG&gt;B82&lt;/STRONG&gt; buses are running with delays, due to tree pruning on E 96 St and Glenwood Rd. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:21PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;B62&lt;/STRONG&gt; bus stop on Jackson Av far side at 42 Rd southbound has been temporarily relocated to 42 Rd far side of Jackson Av. This will be the first and last stop.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time. &lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(106318);&gt;
+&lt;b&gt;B45 - No service between Livingston St at Smith St to Livingston St at Court St
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 106318 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to Con Edison work, buses operate between St Johns Pl/Ralph Av and Livingston St/Smith St.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:23PM</Time>
+  </line>
+  <line>
+    <name>B100 - B103</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>BM1 - BM5</name>
+    <status>DELAYS</status>
+    <text>
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:27PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BM1, BM2, BM3, BM4, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3, M4, Q32, QM21, X27, X28, X37&lt;/STRONG&gt; and &lt;STRONG&gt;X37&lt;/STRONG&gt;  buses are running with delays on Madison Av from 23 St to 34 St, due to construction on Madison Av between 33 St and 34 St.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:27PM</Time>
+  </line>
+  <line>
+    <name>BX1 - BX55</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                  &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:25PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;Bx15&lt;/STRONG&gt; buses are detoured, due to road obstruction at 12 Av and 125 St. &lt;/P&gt;
+&lt;P&gt;Detour is as follows:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Southbound&lt;/STRONG&gt;: Via 125 St, left on Amsterdam Av, right on Lasalle St, right on Broadway, right on 125 St and regular route.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(103668);&gt;
+&lt;b&gt;Bx7 - Northbound buses may experience delays on Broadway from 174 St to 179 St
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 103668 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please allow additional travel time.
+&lt;br&gt;&lt;b&gt;          &lt;/b&gt;&lt;a href=http://bustime.mta.info/ target=_blank&gt;&lt;img height=30px src=http://web.mta.info/nyct/images/Bus_Time_logo.png&gt;&lt;/a&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:25PM</Time>
+  </line>
+  <line>
+    <name>BXM1 - BXM18</name>
+    <status>DELAYS</status>
+    <text>
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:28PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BxM2, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3&lt;/STRONG&gt; and &lt;STRONG&gt;M4&lt;/STRONG&gt; southbound buses are running with delays, due to a movie shoot on 5 Av from 91 St to 65 St. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:27PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BM1, BM2, BM3, BM4, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3, M4, Q32, QM21, X27, X28, X37&lt;/STRONG&gt; and &lt;STRONG&gt;X37&lt;/STRONG&gt;  buses are running with delays on Madison Av from 23 St to 34 St, due to construction on Madison Av between 33 St and 34 St.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:28PM</Time>
+  </line>
+  <line>
+    <name>M1 - M116</name>
+    <status>DELAYS</status>
+    <text>
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:29PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;STRONG&gt;M11&lt;/STRONG&gt; northbound buses are running with delays due to heavy traffic and construction on 10 Av from 17 St to 42 St. &lt;BR&gt;&lt;BR&gt;Allow additional travel time.
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:28PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M11&lt;/STRONG&gt; and &lt;STRONG&gt;M34A&lt;/STRONG&gt; buses are running with delays, due to heavy traffic on 9 Av between 45 St and 22 St.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:28PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BxM2, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3&lt;/STRONG&gt; and &lt;STRONG&gt;M4&lt;/STRONG&gt; southbound buses are running with delays, due to a movie shoot on 5 Av from 91 St to 65 St. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:27PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M42&lt;/STRONG&gt; buses are running with delays in both directions, due to heavy traffic on 42 St between 12 Av and Madison Av. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:27PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BM1, BM2, BM3, BM4, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3, M4, Q32, QM21, X27, X28, X37&lt;/STRONG&gt; and &lt;STRONG&gt;X37&lt;/STRONG&gt;  buses are running with delays on Madison Av from 23 St to 34 St, due to construction on Madison Av between 33 St and 34 St.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:24PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M3&lt;/STRONG&gt; buses are running with delays in both direction, due to heavy traffic on 155 St to St. Nicholas Av between Amsterdam Av and 125 St and Manhattan Av between 125 St and 110 St. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:22PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M21&lt;/STRONG&gt; buses are running with delays, due to heavy traffic on on Houston St between Bowery and Orchard St. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:22PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M15&lt;/STRONG&gt; and &lt;STRONG&gt;M15SBS&lt;/STRONG&gt; buses are running with delays southbound, due to heavy traffic on&lt;STRONG&gt; 2 Av&lt;/STRONG&gt; between &lt;STRONG&gt;126 St&lt;/STRONG&gt; and &lt;STRONG&gt;111 St&lt;/STRONG&gt;. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 2:08PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M15&lt;/STRONG&gt; and &lt;STRONG&gt;M15-SBS&lt;/STRONG&gt; buses are running with delays on Allen St between Delancey St and Houston St, due to construction on Houston St and Allen St,&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 2:07PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;M1&lt;/STRONG&gt; buses are running with delays southbound, due to heavy traffic on 5 Av between 139 St and 124 St. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitlePlannedWork" &gt;Planned Detour&lt;/span&gt;
+                  &lt;br/&gt;
+                &lt;a class="plannedWorkDetailLink" onclick=ShowHide(106349);&gt;
+&lt;b&gt;M35 - Westbound bus stop on 126 St at 2 Av will be temporarily relocated 
+&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 106349 class="plannedWorkDetail" &gt;&lt;/b&gt;Until further notice
+&lt;br&gt;
+&lt;br&gt;Due to construction, please use the nearby temporary stop &lt;b&gt;on 125 St &lt;/b&gt;at 2 Av.
+&lt;br&gt;&lt;b&gt;
+&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:29PM</Time>
+  </line>
+  <line>
+    <name>Q1 - Q113</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                  &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:29PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;Q65&lt;/STRONG&gt; buses are detoured, due to Con Ed working on Northern Blvd from Prince St to College Pt Blvd. &lt;/P&gt;
+&lt;P&gt;Detour is as follows:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Northbound to 110 St and 14 Av&lt;/STRONG&gt;: Via Northern Blvd, right on Prince St, left on 35 Av, right on College Point Blvd and regular route.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:27PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BM1, BM2, BM3, BM4, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3, M4, Q32, QM21, X27, X28, X37&lt;/STRONG&gt; and &lt;STRONG&gt;X37&lt;/STRONG&gt;  buses are running with delays on Madison Av from 23 St to 34 St, due to construction on Madison Av between 33 St and 34 St.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:29PM</Time>
+  </line>
+  <line>
+    <name>QM1 - QM25</name>
+    <status>DELAYS</status>
+    <text>
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:27PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BM1, BM2, BM3, BM4, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3, M4, Q32, QM21, X27, X28, X37&lt;/STRONG&gt; and &lt;STRONG&gt;X37&lt;/STRONG&gt;  buses are running with delays on Madison Av from 23 St to 34 St, due to construction on Madison Av between 33 St and 34 St.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:27PM</Time>
+  </line>
+  <line>
+    <name>S40 - S98</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                  &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:21PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;S76&lt;/STRONG&gt; buses are detoured in both directions, due to paving on New Dorp Ln between Hylan Blvd and Hett Av. &lt;/P&gt;
+&lt;P&gt;Detour is as follows: &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Mill Rd-bound:&lt;/STRONG&gt; Via New Dorp Ln, right on Hylan Blvd, left on Ebbitts St, right on Mill Rd and regular route. &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;St George Ferry-bound:&lt;/STRONG&gt; Via Mill Rd, left on Ebbitts St, right on Hylan Blvd, left on New Dorp Ln and regular route. &lt;/P&gt;
+&lt;P&gt;Allow additional travel time. &lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:21PM</Time>
+  </line>
+  <line>
+    <name>x1 - x68</name>
+    <status>DELAYS</status>
+    <text>
+                  &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                  &lt;span class="DateStyle"&gt;
+                  &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:27PM
+                  &lt;/span&gt;
+                  &lt;br/&gt;
+                  &lt;br/&gt;
+                &lt;P&gt;&lt;STRONG&gt;BM1, BM2, BM3, BM4, BxM3, BxM4, BxM6, BxM7, BxM8, BxM9, BxM10, BxM11, M1, M2, M3, M4, Q32, QM21, X27, X28, X37&lt;/STRONG&gt; and &lt;STRONG&gt;X37&lt;/STRONG&gt;  buses are running with delays on Madison Av from 23 St to 34 St, due to construction on Madison Av between 33 St and 34 St.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;
+              &lt;br/&gt;
+              &lt;br/&gt;
+            </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:27PM</Time>
+  </line>
+</bus><BT>
+  <line>
+    <name>Bronx-Whitestone</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Cross Bay</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Henry Hudson</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Hugh L. Carey</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Marine Parkway</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Queens Midtown</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Robert F. Kennedy</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Throgs Neck</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Verrazano-Narrows</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 6:10AM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;B&gt;&lt;SPAN style="FONT-FAMILY: 'Times New Roman', serif; FONT-SIZE: 12pt"&gt;VNB - UPPER LEVEL TRAFFIC PATTERN &lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 10pt"&gt;&lt;FONT size=3&gt; &lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="COLOR: black; FONT-SIZE: 12pt"&gt;&lt;FONT face=Calibri&gt;Monday thru Thursday: 5 AM to 9:30 AM (3) Lanes Brooklyn-bound. (2) Lanes Staten Island-bound.&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="COLOR: black; FONT-SIZE: 12pt"&gt;&lt;FONT size=3 face=Calibri&gt;&lt;/FONT&gt;&lt;/SPAN&gt; &lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 12pt"&gt;2:30 PM to 10PM (3) Lanes Staten Island-bound. (2) Lanes Brooklyn-bound.&lt;/SPAN&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 10pt"&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 12pt"&gt; &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 12pt"&gt;Friday: 5 AM to 9:30 AM (3) Lanes Bklyn-bnd. (2) Lanes Staten Island-bound.&lt;/SPAN&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 10pt"&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 12pt"&gt;1:30 PM to 11:59 PM (3) Lanes Staten Island-bound. (2) Lanes Brooklyn-bound.&lt;/SPAN&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 10pt"&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 12pt"&gt; &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 12pt"&gt;Saturday and Sunday:Three (3) Lanes Staten Island-bound. Two (2) Lanes Brooklyn-bound.&lt;/SPAN&gt;&lt;SPAN style="FONT-FAMILY: 'Arial', sans-serif; FONT-SIZE: 10pt"&gt;&lt;/SPAN&gt;&lt;/P&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 6:10AM</Time>
+  </line>
+</BT><LIRR>
+  <line>
+    <name>Babylon</name>
+    <status>DELAYS</status>
+    <text>
+                    &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 5:00PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;p&gt;&lt;strong&gt;&lt;u&gt;Eastbound:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The 4:57PM train from Penn due Wantagh at 5:42PM is canceled due to a 
+signal problem west of Jamaica.  Customers will be accommodated by the 
+5:03PM train from Penn due Freeport 5:46PM, which will be extended to 
+Wantagh.
+  &lt;/p&gt;&lt;p&gt; &lt;/p&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 5:00PM</Time>
+  </line>
+  <line>
+    <name>City Terminal Zone</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Far Rockaway</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Hempstead</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Long Beach</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Montauk</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Oyster Bay</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Port Jefferson</name>
+    <status>DELAYS</status>
+    <text>
+                    &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 5:01PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;p&gt;&lt;strong&gt;&lt;u&gt;Eastbound:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The 5:11PM train from Penn due Port Washington at 5:47PM is canceled due
+ to a signal problem west of Jamaica. Customers will be accommodated by 
+the 5:14PM train from Penn due Great Neck at 5:45PM, which will be 
+extended to Port Washington.  
+        &lt;/p&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 5:01PM</Time>
+  </line>
+  <line>
+    <name>Port Washington</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Ronkonkoma</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>West Hempstead</name>
+    <status>DELAYS</status>
+    <text>
+                    &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 5:01PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  The 5:06PM train from Atlantic Terminal due West Hempstead at 5:53PM has
+ been cancelled due to signal trouble west of Jamaica Station.
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 5:01PM</Time>
+  </line>
+</LIRR><MetroNorth>
+  <line>
+    <name>Hudson</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Harlem</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Wassaic</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>New Haven</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>New Canaan</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Danbury</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Waterbury</name>
+    <status>SERVICE CHANGE</status>
+    <text>
+                    &lt;span class="TitleServiceChange" &gt;Service Change&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;06/04/2015&amp;nbsp;11:57AM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  &lt;p&gt;To accommodate the final phase of a $5.8 million priority-repair project on Devon Bridge, a new, temporary transfer point --Devon Transfer--has been built where the Waterbury Branch and New Haven Line meet. Track 3, also known as the inbound local track, will be out of service continuously for six months while the work occurs. As a result, starting Monday, May 4th: All Waterbury Branch customers who usually transfer to main line trains at Bridgeport will instead get off at the new Devon Transfer location, cross the walkway, and wait for a train on Track 1, also known as the inbound express track. Waterbury Branch customers who travel to New Haven will transfer again at Bridgeport for a main line train connection to New Haven. Northbound customers will be dropped off main line trains at the Devon Transfer and board a waiting train for Waterbury. See more details at &lt;a href="http://bit.ly/1a5iYhw"&gt;http://bit.ly/1a5iYhw&lt;/a&gt; &lt;/p&gt;
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>06/04/2015</Date>
+    <Time>11:57AM</Time>
+  </line>
+  <line>
+    <name>Pascack Valley</name>
+    <status>GOOD SERVICE</status>
+    <text />
+    <Date></Date>
+    <Time></Time>
+  </line>
+  <line>
+    <name>Port Jervis</name>
+    <status>DELAYS</status>
+    <text>
+                    &lt;span class="TitleDelay"&gt;Delays&lt;/span&gt;
+                    &lt;span class="DateStyle"&gt;
+                    &amp;nbsp;Posted:&amp;nbsp;09/18/2015&amp;nbsp; 4:21PM
+                    &lt;/span&gt;&lt;br/&gt;&lt;br/&gt;
+                  MBPJ train #0066, the 3:36pm from Salisbury Mills, is up to 40 min. late due to extra passenger travel from cancelled train #0064.
+                &lt;br/&gt;&lt;br/&gt;
+              </text>
+    <Date>09/18/2015</Date>
+    <Time> 4:21PM</Time>
+  </line>
+</MetroNorth></service>
+
