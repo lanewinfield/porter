@@ -1,4 +1,4 @@
-# homescreen
+# Porter
 A dashboard meant for raspberry pi + touchscreen to have an at-a-glance view of data for the home
 
 ### Installation
