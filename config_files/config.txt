@@ -1,5 +1,7 @@
 # this goes on the bottom of /boot/config.txt
 
+# Rotate the screen 90 degrees and up the GPU memory. To rotate 270 degrees, do "display_rotate=3"
+
 gpu_mem=128
 display_rotate=1
 
