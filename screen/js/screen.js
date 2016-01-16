@@ -85,18 +85,18 @@ var chart = new Highcharts.Chart({
 		marker: {
 			symbol: 'circle'
 		},
-		data: [{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, }, dataLabels: { color: '#ffc600'} },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, }, dataLabels: { color: '#ffc600'} },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },
-				{ y: 69, marker: { symbol: 'url(http://garage.briiiiian.com/images/cloudandsun.png)', width: 40, height: 40, } },]
+		data: [{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, }, dataLabels: { color: '#ffc600'} },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, }, dataLabels: { color: '#ffc600'} },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },
+				{ y: 69, marker: { symbol: 'url(images/icons/partly-cloudy-day.png)', width: 40, height: 40, } },]
 
 	}]
 });
