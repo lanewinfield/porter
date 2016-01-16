@@ -14,7 +14,13 @@ Installation
 <!--meh -->
 		sudo apt-get install matchbox chromium x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
 
+* Edit/replace config files.
 
-* Put /screen into home folder
+	* `config.txt` goes into the bottom of `/boot/config.txt`
+	* `default` goes to `/etc/apache2/sites-available/default`
+	* `xinitrc` goes into `~/.xinitrc`
 
-* Put in all your appropriate data in js/config.js
+
+* Put `/screen` into home folder
+
+* Put in all your appropriate data in `js/config.js`
