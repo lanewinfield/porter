@@ -1,0 +1,8 @@
+# this goes on the bottom of /boot/config.txt
+
+gpu_mem=128
+display_rotate=1
+
+# Disable splash
+
+disable_splash=1

@@ -1,3 +1,5 @@
+
+
 var chart = new Highcharts.Chart({
 	chart: {
 		renderTo: 'weatherchart',
@@ -101,7 +103,7 @@ var chart = new Highcharts.Chart({
 
 function errorAlert(theerror, time) {
 		$( "#erroralert" ).html(theerror);
-			$( "#erroralert" ).animate({bottom: "0"}, 200).delay(time).animate({bottom: "-57px"}, 200);
+			$( "#erroralert" ).animate({bottom: "0"}, 200).delay(time).animate({bottom: "-137px"}, 200);
 }
 
 function toggleLights() {
@@ -232,6 +234,19 @@ $( document ).ready(function() {
 			/* ADJUST FOR EXTREMES */
 			extremes = chart.yAxis[0].getExtremes();
 			chart.yAxis[0].setExtremes(extremes.dataMin, extremes.dataMax*1.15);
+		}
+
+		function WillItRain(weather, hoursOut, sensitivity) {
+			var rainProp = 0;
+			for (i = 0; i < hoursOut; i+=1) {
+				rainProp += weather.hourly.data[i].precipProbability;
+			}
+			if (rainProp > sensitivity) {
+				return true;
+			} else {
+				return false;
+			}
+			console.log("rain prop: " + rainProp)
 		}
 
 		function HourlyWeather(weather) {
@@ -384,9 +399,19 @@ $( document ).ready(function() {
 			}, 200);
 		} else {
 			$( "#precipalert" ).animate({
-				bottom: "-57px"
+				bottom: "-137px"
 			}, 200);
 		}
+
+		/* UMBRELLA CHECK */
+
+		if (WillItRain(weather, 15, 0.15)) {
+			$("#umbrella").show();
+		} else {
+			$("#umbrella").hide();
+		}
+
+
 
 
 		/* CHECK LIGHTS */
@@ -513,7 +538,7 @@ $( document ).ready(function() {
 		/* } else if(h >= 17 && h < 22) {
 			$( "#greeting" ).html("Good evening"); */
 		} else {
-			$( "#greeting" ).html("Good night");
+			$( "#greeting" ).html("Good evening");
 		}
 		}
 	};
@@ -570,12 +595,13 @@ $( document ).ready(function() {
 		var subwayTarget = "#screen"+event.target.id;
 		$( subwayTarget ).fadeToggle( 500 );
 		$("#subwayscreens_container").fadeIn(500);
+		$(".subwayscreen_content").kinetic();
 	});
 	$( "#childscreen_container" ).delegate('div', 'click', function() {
 		$( this ).fadeToggle( 500 );
 	});
 	$( ".alert" ).click(function() {
-		$( this ).animate({bottom: "-57px"}, 200);
+		$( this ).animate({bottom: "-137px"}, 200);
 	});
 	$( "#light" ).click(function() {
 		toggleLights();
@@ -630,5 +656,8 @@ $( document ).ready(function() {
 
 
 $( window ).load(function() {
-	$( "#homescreen" ).fadeToggle(1500);
+	$("#preloader img").fadeIn(1500).delay(2000).queue(function(next) {
+		$( "#preloader" ).fadeOut(1500);
+	});
+	
 });

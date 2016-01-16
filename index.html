@@ -97,6 +97,22 @@ body {
     overflow: hidden;
 }
 
+#preloader {
+	z-index: 99999999;
+	width: 480px;
+	height: 840px;
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#preloader img {
+	position: relative;
+	top: 40%;
+	display: none;
+}
+
 #container {
 	background: #fff;
 	width: 480px;
@@ -109,7 +125,6 @@ body {
 }
 
 #homescreen {
-	display: none;
 }
 
 #homescreen #applist {
@@ -117,12 +132,13 @@ body {
 	position: relative;
 	left: -50%;
 	text-align: left;
-	margin-top: 60px;
+	margin-top: 25px;
 }
 
 #homescreen #floatapplist {
 	position:relative;
 	left:50%;
+	width: 450px;
 }
 
 #homescreen .homeicon {
@@ -206,7 +222,7 @@ body {
 }
 
 #homescreen #weatherchart {
-	margin: -20px 0 20px 0;
+	margin: 0px 0 20px 0;
 	z-index: -1;
 	overflow: hidden;
 	cursor: none !important;
@@ -239,6 +255,23 @@ a#refresh {
 	background-image: url('images/lightbulb.png');
 }
 
+#homescreen #umbrella {
+	background-image: url('images/umbrella.png');	
+	background-size: 65%;
+	-webkit-animation: pulsate 6s ease-in-out;
+   -webkit-animation-iteration-count: infinite; 
+   opacity: 1;
+}
+
+@-webkit-keyframes pulsate {
+    0% {opacity: 1;}
+    30% {opacity: 1;}
+    49% {opacity: 0.05;}
+    51% {opacity: 0.05;}
+    70% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
 #homescreen #ac {
 	background-image: url('ac.gif');
 }
@@ -253,15 +286,16 @@ a#refresh {
 }
 
 #homescreen .alert {
+	font-size: 1.5em;
 	z-index: 3;
 	position: fixed;
-	bottom: -57px;
+	bottom: -137px;
 	left: 0;
-	width: 240px;
-	height: 40px;
+	width: 460px;
+	height: 75px;
 	color: #fff;
 	text-align: center;
-	padding-top: 17px;
+	padding: 42px 10px 0 10px;
 }
 
 #homescreen #precipalert {
@@ -296,6 +330,8 @@ a#refresh {
 .subwayscreen_content {
 	padding: 40px 30px 0px;
 	line-height: 1.5;
+	height: 300px;
+	overflow: hidden;
 }
 
 .subwayscreen_content p {
@@ -369,6 +405,7 @@ h1 {
 	<body>
 		<!-- <a href="#" onClick="location.reload(true); return false;" id="refresh">&nbsp;</a>-->
 		<div id="container">
+		<div id="preloader"><img src="images/porter_logo.png" />&nbsp;</div>
 
 			<div id="homescreen">
 				<a href="#" onClick="location.reload(true); return false;"><h1 id="greeting">Hello.</h1></a>
@@ -385,6 +422,7 @@ h1 {
 						<a href="#" id="car2go" class="interactivehomeicon">X km</a>
 						<!-- <a href="#" id="ac" class="homeicon">&nbsp;</a> -->
 						<div style="clear:both;"></div>
+						<a href="#" id="umbrella" class="homeicon">&nbsp;</a>
 						<div id="subwayicons"></div>
 					</div>
 				</div>
@@ -419,7 +457,7 @@ h1 {
 			</div>
 		</div>
 
-	<script src="js/config.js"></script>
+	<script src="js/config.js"></script>	
 	<script src="js/screen.js"></script>
 	</body>
 </html>

@@ -1,0 +1,28 @@
+#!/bin/sh
+while true; do
+
+        # Clean up previously running apps, gracefully at first then harshly
+        killall -TERM chromium 2>/dev/null;
+        killall -TERM matchbox-window-manager 2>/dev/null;
+        sleep 2;
+        killall -9 chromium 2>/dev/null;
+        killall -9 matchbox-window-manager 2>/dev/null;
+
+        # Set touchscreen axes
+        xinput --set-prop 6 "Evdev Axes Swap" 1
+        xinput --set-prop 'FT5406 memory based driver' 'Evdev Axis Inversion' 0 1
+
+        # Disable DPMS / Screen blanking
+        xset -dpms
+        xset s off
+
+        # Hide the cursor (move it to the bottom-right, comment out if you want mouse interaction)
+        # xwit -root -warp $( cat /sys/module/*fb*/parameters/fbwidth ) $( cat /sys/module/*fb*/parameters/fbheight )
+
+        # Start the window manager (remove "-use_cursor no" if you actually want mouse interaction)
+        matchbox-window-manager -use_titlebar no -use_cursor no &
+
+        # Start the browser (See http://peter.sh/experiments/chromium-command-line-switches/)
+        chromium  --app=http://localhost --disable-web-security
+
+done;
