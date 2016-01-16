@@ -3,7 +3,7 @@ Porter
 
 <img src="https://github.com/lanewinfield/porter/blob/master/porter.png" width="400px" />
 
-*(See it in action [here](http://gfycat.com/LikelyForsakenIcelandgull))*
+*(See it in action [here](http://gfycat.com/SpeedyAlertDrake))*
 
 **A dashboard meant for raspberry pi + touchscreen to have an at-a-glance view of data for the home.**
 
