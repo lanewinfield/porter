@@ -1,7 +1,8 @@
 Porter
 =========
 
-![This is Porter](https://github.com/lanewinfield/porter/blob/master/porter.png)
+![This is Porter](https://github.com/lanewinfield/porter/blob/master/porter.png =250x)
+*(See it in action [here](http://gfycat.com/LikelyForsakenIcelandgull))*
 
 A dashboard meant for raspberry pi + touchscreen to have an at-a-glance view of data for the home.
 
