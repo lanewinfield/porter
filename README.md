@@ -51,3 +51,10 @@ Installation
 * Put in all your appropriate data in `js/config.js`
 
 * Boot 'er up!
+
+Warnings
+---------
+
+* *This code sucks.* I'm pretty rusty when it comes to JS (or any language at that matter) and have been so busy adding that I haven't even considered refactoring.
+
+* *Some things only work for me.* Light control is using my own API (I hope to OS that soon, too) and the subway information is currently NYC only.
