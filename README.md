@@ -15,6 +15,6 @@ Installation
 		sudo apt-get install matchbox chromium x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
 
 
-* Put all files into ~/screen/
+* Put /screen into home folder
 
-* Put in all your appropriate data in js/config.js. Then launch index.html!
+* Put in all your appropriate data in js/config.js
