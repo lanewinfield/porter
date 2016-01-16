@@ -11,9 +11,11 @@ Installation
 
 		sudo apt-get update
 
+<!--meh -->
 
 		sudo apt-get dist-upgrade
 
+<!--meh -->
 
 		sudo apt-get install matchbox chromium x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
 
