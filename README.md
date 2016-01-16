@@ -1,7 +1,20 @@
 Porter
 =========
 
-A dashboard meant for raspberry pi + touchscreen to have an at-a-glance view of data for the home
+A dashboard meant for raspberry pi + touchscreen to have an at-a-glance view of data for the home.
+
+Features
+---------
+
+* Upcoming (24 hour) weather, scrollable and inspired by the wonderful design of [Weather Line](http://weatherlineapp.com/).
+* Alerts when precipitation is forecast within the hour (à la Dark Sky)
+* Light control (using my own API... hope to set this up soon)
+* Nearest Uber-X status
+* Nearest Car2Go status with toggleable map
+* NYC subway alerts
+* "Should I bring my umbrella?" alert
+* The current time
+
 
 Prerequisites
 ---------
