@@ -50,10 +50,10 @@ If you're working with Jessie, this is gonna be a bit tougher. To install chromi
 
 * Add the following to `/etc/rc.local`:
 
-	if [ -f /boot/xinitrc ]; then
-		ln -fs /boot/xinitrc /home/pi/.xinitrc;
-		su - pi -c 'startx' &
-	fi
+		if [ -f /boot/xinitrc ]; then
+			ln -fs /boot/xinitrc /home/pi/.xinitrc;
+			su - pi -c 'startx' &
+		fi
 
 * Put `/screen` into home folder
 
