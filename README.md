@@ -37,14 +37,23 @@ Installation
 <!--meh -->
 		sudo apt-get dist-upgrade
 <!--meh -->
-		sudo apt-get install matchbox chromium x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
+		sudo apt-get install matchbox chromium x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3 apache2 xinput
+<!--meh-->
+
+If you're working with Jessie, this is gonna be a bit tougher. To install chromium, follow [these instructions](https://www.raspberrypi.org/forums/viewtopic.php?t=121195&p=818455), but bear in mind it only works for RPI2.
 
 * Edit/replace config files.
 
 	* `config.txt` goes into the bottom of `/boot/config.txt`
-	* `default` goes to `/etc/apache2/sites-available/default`
 	* `xinitrc` goes into `~/.xinitrc`
+	* `default` goes to `/etc/apache2/sites-available/default`
 
+* Add the following to `/etc/rc.local`:
+
+	if [ -f /boot/xinitrc ]; then
+		ln -fs /boot/xinitrc /home/pi/.xinitrc;
+		su - pi -c 'startx' &
+	fi
 
 * Put `/screen` into home folder
 
