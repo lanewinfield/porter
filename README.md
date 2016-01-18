@@ -27,6 +27,8 @@ This was all built exactly to the spec of the [Official Raspberry Pi Display](ht
 
 I run it on a RPI2.
 
+**WARNING: This really only works well on Wheezy at this point. I'm attempting to get it to work well on Jessie, but so far it's not perfect.**
+
 
 Installation
 ---------
